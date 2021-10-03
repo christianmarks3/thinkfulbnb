@@ -1,2 +1,2 @@
 # thinkfulbnb
-thinkfulbnb page
+Want to Become a Thinkful Host
