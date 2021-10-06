@@ -1,6 +1,10 @@
 body {
   font-family: "Lato", sans-serif;
 }
+.paragraph{
+  align-items: center
+  margin: auto 0
+}
 
 h2 {
   font-size: 26px;
@@ -148,6 +152,21 @@ footer p {
     justify-content: space-between;
     padding: 0;
   }
+  .paragraph{
+  align-items: center;
+  margin: auto 0
+}
+.p2{
+  flex: 1;
+  padding-right: 20px;
+  margin: auto 0;
+  
+}
+.picture{
+  flex: 1
+}
+
+
 
 
 .grid{
@@ -161,19 +180,20 @@ footer p {
 .grid img{
   width:80%
 }
-  main img{
-    width: 20%
+  .column img{
+    width: 20%;
+    padding: 5px;
 
   }
 
   .last{
     flex-direction: row;
     display:flex;
+
+    
   }
 
-  main p{
-    width:50%
-  }
+  
 
   .button{
     width: 100px
@@ -193,7 +213,7 @@ footer p {
   .logo {
     margin: 14 px 0 14px 20px;
     padding-top: 0;
-    font-size: 42px
+    font-size: 38px
   }
 
   header nav ul {
